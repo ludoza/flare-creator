@@ -1,0 +1,11 @@
+#!/bin/sh
+MAPFILENAME=$1
+RANMAPGEN=./a.out
+if [ -z "$2" ]; then
+MODNAME="ranmapgen"
+else
+MODNAME=$2
+fi
+
+cd ../Random_Map_Generator/
+$RANMAPGEN ../flare-game/mods/$MODNAME/maps/$MAPFILENAME
