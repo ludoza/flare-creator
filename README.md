@@ -19,22 +19,25 @@ cd flare
 git clone https://github.com/clintbellanger/flare-engine
 # clone our random map generator
 git clone https://github.com/Paul-Wortmann/Random_Map_Generator.git
-# clone flare creator
-git clone https://github.com/ludoza/flare-creator
-# open the flare-creator, qt project in qtcreator; build; run; deity mode!!1 
+# clone our commander
+git clone git@github.com:brothers-of-the-moot/flare-cmd.git
+# clone our map editor, if you would like to edit it as well with qtcreator.
+# git clone https://github.com/bjorn/tiled.git 
 ```
 
-Remember to compile flare and the random map generator, before executing flare-creator, it is also recommended to have a couple of mods [flare-game], [flare-mod-noname], $MSG_ME_UR_MOD.
+Compile all the checked out projects, and download a couple of mods [flare-game], [flare-mod-noname], `$MSG_ME_UR_MOD`.
+
+To get started open up flare and load the fantasycore and devlab mod, and start to play!
+Follow the instruction given by the programmers in the game.
 
 # FAQ
-
-Q: I can not find the qt project?
-A: #TODO
 
 Q: Your instructions for my $OS does not work?
 A: I only have access to OS X.
 
 [flare-engine]: https://github.com/clintbellanger/flare-engine
+[flare-game]: https://github.com/clintbellanger/flare-game
 [map-generator]: https://github.com/Paul-Wortmann/Random_Map_Generator.git
 [flare-mod-noname]: https://github.com/igorko/flare-mod-noname.git 
+[tiled]: http://www.mapeditor.org/
 <link rel="stylesheet" type="text/css" href="http://goo.gl/A0Ah1C">
