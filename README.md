@@ -6,7 +6,7 @@ To use it we will first need to setup our development environment.
 ```sh
 # install git, qtcreator and our map editor
 # ubuntu (debian)
-sudo apt-get tiled qtcreator git
+sudo apt-get install tiled qtcreator git
 # os x (http://brew.sh/)
 brew install tiled qtcreator git
 # windows (https://chocolatey.org/)
