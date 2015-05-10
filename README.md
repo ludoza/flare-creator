@@ -1,8 +1,7 @@
 # flare-creator
 
-This is still in planning, so this is a setup of our development environment.
-
-Note the commands below does not include the [flare-engine] or other setup instructions, consult their respective [INSTALL.engine.md]() instructions.
+flare-creator is a collection of git repo's to make flare game creation easier.
+To use it we will first need to setup our development environment.
 
 ```sh
 # install git, qtcreator and our map editor
@@ -27,13 +26,14 @@ git clone git@github.com:brothers-of-the-moot/flare-cmd.git
 
 Compile all the checked out projects, and download a couple of mods [flare-game], [flare-mod-noname], `$MSG_ME_UR_MOD`.
 
-To get started open up flare and load the fantasycore and devlab mod, and start to play!
-Follow the instruction given by the programmers in the game.
+To get started open up flare and load the *fantasycore* and *devlab* mod, and start to play!
+Follow the instruction given by the programmers in the game, remember *devlab* is part of the [flare-game] mod, 
+so you will find the basic map in `flare-game/mods/devlab/maps/lab_mapping.txt`.
 
 # FAQ
 
-Q: Your instructions for my $OS does not work?
-A: I only have access to OS X.
+	- Q: Your instructions for my $OS does not work?
+	- A: I only have access to OS X.
 
 [flare-engine]: https://github.com/clintbellanger/flare-engine
 [flare-game]: https://github.com/clintbellanger/flare-game
